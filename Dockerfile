@@ -1,6 +1,6 @@
 
 # Use a base image with Python
-FROM python:3.12-alpine
+FROM python:3.13-alpine
 ENV PYTHONUNBUFFERED=1
 
 # Install dependencies
@@ -26,5 +26,3 @@ EXPOSE 5000
 
 # Run the application
 CMD ["python3", "/app/main.py"]
-
-
